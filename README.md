@@ -51,6 +51,9 @@ Lab02的測資會幫我們做正45度角的Pipeline，這個測資是要處理[5
   
 |<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/8a61552b-3ed4-4f5b-b446-6df64ff81c02" />| <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/0d876759-43a4-452e-a230-998179423ac7" /> |
 |:--:|:--:|
+<img width="1300" height="397" alt="image" src="https://github.com/user-attachments/assets/7bdb3451-054d-4ea2-b179-0373cf1fa46c" />
+
+
 
 
    
