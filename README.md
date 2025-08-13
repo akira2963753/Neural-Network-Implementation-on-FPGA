@@ -24,6 +24,7 @@
 ├── PE.sv                        
 └── tb_PE.sv       # TestBench     
 ```
-實現一個Processing Element (PE)  
-<img width="1438" height="644" alt="image" src="https://github.com/user-attachments/assets/1cfba159-2101-4353-badd-fe769762c0ae" />
+實現一個Processing Element (PE)，如下圖所示 :  
+<img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/5e62ab76-81d2-4af2-ba27-ad5c3426a452" />
+
 
