@@ -28,7 +28,7 @@
    
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/5e62ab76-81d2-4af2-ba27-ad5c3426a452" />
 
-``` Verilog
+``` SystemVerilog
 (*use_dsp="yes"*)module PE#(
     parameter DATA_WIDTH = 8,
     parameter SUM_WIDTH = 32
