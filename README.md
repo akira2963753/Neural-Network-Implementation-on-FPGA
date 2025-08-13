@@ -7,7 +7,7 @@
 ### Lab : 
 - [x] **Lab01 (PE)**
 - [X] **Lab02 (Systolic_Array)**
-- [ ] **Lab03 (Input Register)**
+- [X] **Lab03 (Input Register)**
 - [ ] **Lab04 (Max Pooling)**
 - [ ] **Lab05 (ReLU Function)**
 - [ ] **Lab06 (Moudle Integration)**
@@ -45,4 +45,13 @@
 │   └── tb_PE.sv 
 ```
 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，我們也測試了陣列參數調整成4的結果。  
+
+## [Lab03](./Lab03)  
+```
+./Lab02/
+├── lab03_testbench/    
+├── Input_Register.sv  
+├── Input_Register_Line.sv                          
+└── tb_Input_Register_Line.sv  
+```
 
