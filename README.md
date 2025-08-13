@@ -1,1 +1,1 @@
-# Neural-Network-Principle
+# Neural Network Implementation on FPGA  
