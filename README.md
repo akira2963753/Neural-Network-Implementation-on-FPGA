@@ -26,7 +26,7 @@
 ```
 實現一個Processing Element (PE)，如下圖所示 :  
    
-<img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/5e62ab76-81d2-4af2-ba27-ad5c3426a452" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5e62ab76-81d2-4af2-ba27-ad5c3426a452" />
 
 
 
