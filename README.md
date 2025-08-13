@@ -7,8 +7,8 @@
 ### Lab : 
 - [x] **Lab01 (PE)**
 - [X] **Lab02 (Systolic_Array)**
-- [ ] **Lab03 ( )**
-- [ ] **Lab04 ( )**
-- [ ] **Lab05 ( )**
-- [ ] **Lab06 ( )**
-- [ ] **Lab07 ( )**
+- [ ] **Lab03 (Input Register)**
+- [ ] **Lab04 (Pooling)**
+- [ ] **Lab05 (ReLU Function)**
+- [ ] **Lab06 (Moudle Integration)**
+- [ ] **Lab07 (Data-Path Design)**
