@@ -34,6 +34,11 @@
 ## [Lab02](./Lab02)  
 ```
 ./Lab02/
+├── SA_4x4/                    # Test 4x4 Result  
+│    └── lab02_testbench_4x4/
+│    └── PE.sv 
+│    └── PE_Array.sv 
+│    └── tb_PE.sv 
 ├── lab02_testbench/    
 ├── PE.sv  
 ├── PE_Array.sv                          
