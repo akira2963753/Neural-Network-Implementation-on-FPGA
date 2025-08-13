@@ -19,8 +19,8 @@
 ```
 ./Lab01/
 ├── lab01_testbench/  
-│    └── test18_a.txt  
-│    └── test18_b.txt  
+│   └── test18_a.txt  
+│   └── test18_b.txt  
 ├── PE.sv                        
 └── tb_PE.sv    
 ```
@@ -34,15 +34,15 @@
 ## [Lab02](./Lab02)  
 ```
 ./Lab02/
-├── SA_4x4/                    # Test 4x4 Result  
-│    └── lab02_testbench_4x4/
-│    └── PE.sv 
-│    └── PE_Array.sv 
-│    └── tb_PE.sv 
 ├── lab02_testbench/    
 ├── PE.sv  
 ├── PE_Array.sv                          
-└── tb_PE.sv   
+├── tb_PE.sv
+├── SA_4x4/                    # Test 4x4 Result  
+│   └── lab02_testbench_4x4/
+│   └── PE.sv 
+│   └── PE_Array.sv 
+│   └── tb_PE.sv 
 ```
 實現一個 N x N 的 Systolic Array，根據 Output Satationary Data Flow  
 
