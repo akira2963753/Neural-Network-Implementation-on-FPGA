@@ -43,7 +43,9 @@
 │   └── PE_Array.sv 
 │   └── tb_PE.sv 
 ```
-根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，我們也測試了陣列參數調整成4的結果。  
+根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，輸出每個矩陣計算的結果。  
+<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/28c6fb57-6dc8-4987-be9c-b9ffd46545dc" />
+
    
 
 ## [Lab03](./Lab03)  
