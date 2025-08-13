@@ -44,5 +44,5 @@
 │   └── PE_Array.sv 
 │   └── tb_PE.sv 
 ```
-實現一個 N x N 的 Systolic Array，根據 Output Satationary Data Flow 來實現，我們也測試了陣列參數調整成4的結果。  
+根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，我們也測試了陣列參數調整成4的結果。  
 
