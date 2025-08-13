@@ -66,4 +66,7 @@ Lab02的測資會幫我們做正45度角的Pipeline，這個測資是要處理[5
 ├── Input_Register_Line.sv                          
 └── tb_Input_Register_Line.sv  
 ```
+**目的 : 實現一個 Input Register 來幫助系統將輸入的資料分流到正確的位置**  
+
+<img width="1615" height="695" alt="image" src="https://github.com/user-attachments/assets/a2dc9a1e-f869-49bf-9b0c-096cf3489972" />  
 
