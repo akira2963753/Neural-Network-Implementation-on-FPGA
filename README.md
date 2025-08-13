@@ -22,10 +22,18 @@
 │    └── test18_a.txt  
 │    └── test18_b.txt  
 ├── PE.sv                        
-└── tb_PE.sv       # TestBench     
+└── tb_PE.sv    
 ```
 實現一個Processing Element (PE)，如下圖所示 :  
    
 <img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/5e62ab76-81d2-4af2-ba27-ad5c3426a452" />
 
+
+
+
+## [Lab02](./Lab02)  
+```
+
+```
+實現一個 N x N 的 Systolic Array，根據 Output Satationary Data Flow  
 
