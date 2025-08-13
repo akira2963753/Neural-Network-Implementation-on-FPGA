@@ -70,7 +70,7 @@ Lab02的測資會幫我們做正45度角的Pipeline，這個測資是要處理[5
 
 Lab03的測資一共會輸入1024個資料，然後通過Input Register將資料分流到正確的位置。  
   
-| <img width="1615" height="695" alt="image" src="https://github.com/user-attachments/assets/a2dc9a1e-f869-49bf-9b0c-096cf3489972" /> |<img width="1455" height="537" alt="image" src="https://github.com/user-attachments/assets/0069a1f6-8895-4efb-a442-d51d591f7f14" />|
+| <img width="1615" height="695" alt="image" src="https://github.com/user-attachments/assets/a2dc9a1e-f869-49bf-9b0c-096cf3489972" /> |<img width="1500" height="600" alt="image" src="https://github.com/user-attachments/assets/0069a1f6-8895-4efb-a442-d51d591f7f14" />|
 |:--:|:--:|
 
 
