@@ -33,7 +33,11 @@
 
 ## [Lab02](./Lab02)  
 ```
-
+./Lab02/
+├── lab02_testbench/    
+├── PE.sv  
+├── PE_Array.sv                          
+└── tb_PE.sv   
 ```
 實現一個 N x N 的 Systolic Array，根據 Output Satationary Data Flow  
 
