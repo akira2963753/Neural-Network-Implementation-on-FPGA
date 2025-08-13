@@ -44,7 +44,8 @@
 │   └── tb_PE.sv 
 ```
 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，輸出每個矩陣計算的結果。  
-<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/28c6fb57-6dc8-4987-be9c-b9ffd46545dc" />
+Lab02的測資會幫我們做正45度角的Pipeline，並且是處理5x5的矩陣，一共有7個，我們根據每個對角線計算完的時候，從每個PE中取出答案存到TestBench中的Result_Matrix，當最後一個對角線計算完後，輸出Result_Matrix的結果出來，如下圖所示 :  
+<img width="449" height="496" alt="image" src="https://github.com/user-attachments/assets/238d4ec0-c924-469e-9e0b-d31034549e20" />
 
    
 
