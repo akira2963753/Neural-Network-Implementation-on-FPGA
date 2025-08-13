@@ -24,7 +24,7 @@
 ├── PE.sv                        
 └── tb_PE.sv    
 ```
-目的 : 實現一個Processing Element (PE)。
+**目的 : 實現一個Processing Element (PE)**  
   
 電路模塊與模擬結果如下圖所示 :  
    
@@ -45,9 +45,9 @@
 │   └── PE_Array.sv 
 │   └── tb_PE.sv 
 ```
-目的 : 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，輸出每個矩陣計算的結果。
+**目的 : 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array，輸出每個矩陣計算的結果**  
   
-Lab02的測資會幫我們做正45度角的Pipeline，這個測資是要**處理5x5的矩陣，一共有7個**，我們根據每個對角線計算完的時間，從每個PE中取出答案存到TestBench中的Result_Matrix，當最後一個對角線計算完後，輸出Result_Matrix的結果出來，如下圖所示 :   
+Lab02的測資會幫我們做正45度角的Pipeline，這個測資是要處理[5x5的矩陣，一共有7個]，我們根據每個對角線計算完的時間，從每個PE中取出答案存到TestBench中的Result_Matrix，當最後一個對角線計算完後，輸出Result_Matrix的結果出來，如下圖所示 :   
 並且由於我們的程式是參數化設計，因此可以擴展到 N X N 的 Systolic Array (包含TB)，我們也用 4 x 4 Systolic Array [(SA_4x4)](./Lab02/SA_4x4) 做為測試 
   
 | <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/0d876759-43a4-452e-a230-998179423ac7" /> |<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/238d4ec0-c924-469e-9e0b-d31034549e20" />|
