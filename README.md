@@ -25,10 +25,19 @@
 └── tb_PE.sv    
 ```
 **目的 : 實現一個Processing Element (PE)**  
-| PE.sv | WIDTH(bit) |    |
-|:-----:|:----:|:----:|
-| DATA_WIDTH | 8 | Weight與IFM輸入的大小 |
-| SUM_WIDTH | 32 | Partial Sum 的大小 |
+| Type | Signal Name | WIDTH(bit) | Description |
+|:-----:|:-----:|:----:|:----:|
+|Parameter| DATA_WIDTH | 8 | Weight與IFM輸入的大小 |
+|Parameter| SUM_WIDTH | 32 | Partial Sum 的大小 |
+|Input| clk | 1 | Postive-edge 觸發的clock|
+|Input| rst_n | 1 | Negative-edge 觸發的rst|
+|Input| ifm_in | 8 | Input Feature Map 輸入資料|
+|Input| w_in | 8 | Weight 權重輸入資料|
+|Input| done | 1 | 控制信號，決定是否繼續累加|
+|Output| ifm_pass | 8 | Input Feature Map 傳遞輸出|
+|Output| w_pass | 8 | Weight 權重傳遞輸出|
+|Output| psum_out | 32 | Partial Sum 累加結果輸出|
+
 
 電路模塊與模擬結果如下圖所示 :  
    
