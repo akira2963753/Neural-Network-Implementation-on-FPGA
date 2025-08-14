@@ -31,12 +31,12 @@
 |Parameter| SUM_WIDTH | 32 | Partial Sum 的大小 |
 |Input| clk | 1 | Postive-edge 觸發的clock|
 |Input| rst_n | 1 | Negative-edge 觸發的rst|
-|Input| ifm_in | 8 | Input Feature Map 輸入資料|
-|Input| w_in | 8 | Weight 權重輸入資料|
+|Input| ifm_in | DATA_WIDTH | Input Feature Map 輸入資料|
+|Input| w_in | DATA_WIDTH | Weight 權重輸入資料|
 |Input| done | 1 | 控制信號，決定是否繼續累加|
-|Output| ifm_pass | 8 | Input Feature Map 傳遞輸出|
+|Output| ifm_pass | DATA_WIDTH | Input Feature Map 傳遞輸出|
 |Output| w_pass | 8 | Weight 權重傳遞輸出|
-|Output| psum_out | 32 | Partial Sum 累加結果輸出|
+|Output| psum_out | SUM_WIDTH | Partial Sum 累加結果輸出|
 
 
 電路模塊與模擬結果如下圖所示 :  
