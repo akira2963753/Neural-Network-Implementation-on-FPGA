@@ -61,8 +61,8 @@
 **目的 : 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array**  
 
 在這個Lab中，我們分別會去測試兩種運算，並且兩種測資皆會幫助我們做正45度角的Pipeline。  
-- 捲積運算 : 我們將以3 x 3的Systolic Array為例，送入36筆資料來模擬捲積運算。      
-- 矩陣運算 : 我們會以4 x 4的Systolic Array為例，做一個4x4矩陣的相乘。    
+- 捲積運算 : 我們將以3 x 3的Systolic Array為例，送入36筆資料來模擬捲積運算      
+- 矩陣運算 : 我們會以4 x 4的Systolic Array為例，做一個4x4矩陣的相乘    
   
 由於我們的程式是參數化設計，因此皆可以擴展到 N X N 的 Systolic Array (包含TB)。     
 我們根據會每個對角線計算完的時間，從每個PE中取出答案存到TestBench中的Result_Matrix，當最後一個對角線計算完後，輸出Result_Matrix的結果出來，如下圖所示。  
