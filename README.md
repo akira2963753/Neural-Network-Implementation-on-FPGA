@@ -60,15 +60,16 @@
 ```
 **目的 : 根據 Output Satationary Data Flow 實現一個 N x N 的 Systolic Array**  
 
-在這個Lab中，我們分別會去測試兩種運算，一個是捲積運算，一個是矩陣運算，並且兩種測資會幫助我們做正45度角的Pipeline。  
-捲積運算 : 我們將以3x3的Systolic Array為例，送入36筆資料進去做捲積。    
-矩陣運算 : 我們會以4x4的Systolic Array為例，做一個4x4矩陣的相乘。    
-由於我們的程式是參數化設計，因此可以擴展到 N X N 的 Systolic Array (包含TB)。    
+在這個Lab中，我們分別會去測試兩種運算，一個是捲積運算，一個是矩陣運算，並且兩種測資皆會幫助我們做正45度角的Pipeline。  
+捲積運算 : 我們將以3 x 3的Systolic Array為例，送入36筆資料來模擬捲積運算。      
+矩陣運算 : 我們會以4 x 4的Systolic Array為例，做一個4x4矩陣的相乘。    
+由於我們的程式是參數化設計，因此皆可以擴展到 N X N 的 Systolic Array (包含TB)。     
 我們根據會每個對角線計算完的時間，從每個PE中取出答案存到TestBench中的Result_Matrix，當最後一個對角線計算完後，輸出Result_Matrix的結果出來，如下圖所示。  
 |<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/8a61552b-3ed4-4f5b-b446-6df64ff81c02" />| <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/0d876759-43a4-452e-a230-998179423ac7" /> |
 |:--:|:--:|
-
-
+  
+|<img width="396" height="122" alt="image" src="https://github.com/user-attachments/assets/f84de17b-4e7e-4d5a-b7ee-9c4b7e2767ed" /> | <img width="396" height="122" alt="image" src="https://github.com/user-attachments/assets/24f55342-2242-4b7b-bfc0-909e20f0f8c2" />|
+|:--:|:--:|
 
 
    
