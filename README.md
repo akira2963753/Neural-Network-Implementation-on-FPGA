@@ -13,8 +13,6 @@
 - [ ] **Lab06 (Moudle Integration)**
 - [ ] **Lab07 (Data-Path Design)**
 
-### Collaborator :  
-
 # 
 
 ## [Lab01](./Lab01) 
