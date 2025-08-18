@@ -95,3 +95,10 @@ Lab03的測資一共會輸入1024個資料，然後通過Input Register將資料
 ## [Lab05](./Lab05)  
 
 **目的 : 實現激活函數(Activation Function)進行非線性運算，讓神經網路能逼近更複雜的函數。ReLU的計算效率高且能改善梯度消失問題。**  
+
+./Lab05/
+├── lab05_testbench/  
+│   └── input_data.txt  
+│   └── generate_input_data.py
+├── RELU.sv                        
+└── tb_RELU.sv   
