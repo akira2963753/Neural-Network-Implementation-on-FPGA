@@ -2,7 +2,7 @@ module RELU_tb;
 
   parameter SUM_WIDTH = 32;
   parameter NUM_DATA = 128;
-  logic clk, rst_n, done; // logic declaration can replace wire and reg
+  logic clk, rst_n; // logic declaration can replace wire and reg
   logic [SUM_WIDTH-1:0] in_data;
   logic [SUM_WIDTH-1:0] out_data;
 
@@ -13,7 +13,6 @@ module RELU_tb;
   RELU #(.SUM_WIDTH(SUM_WIDTH)) uut (
     .clk(clk),
     .rst_n(rst_n),
-    .done(done),
     .in_data(in_data),
     .out_data(out_data)
   );
@@ -30,7 +29,6 @@ module RELU_tb;
   initial begin
     clk = 0;
     rst_n = 0;
-    done = 1;
 
     #20;
     rst_n = 1;
@@ -49,3 +47,4 @@ module RELU_tb;
   end
 
 endmodule
+
