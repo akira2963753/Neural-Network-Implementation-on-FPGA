@@ -4,7 +4,6 @@
     input [SUM_WIDTH-1:0] in_data,
     input clk,
     input rst_n,
-    input done,
     output reg [SUM_WIDTH-1:0] out_data
 );
     
@@ -16,4 +15,5 @@
             out_data <= (in_data[SUM_WIDTH-1]) ? 0 : in_data;
         end
     end
+
 endmodule
