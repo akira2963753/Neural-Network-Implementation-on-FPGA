@@ -1,4 +1,4 @@
-(*use_dsp="yes"*)module RELU#(
+module RELU#(
     parameter SUM_WIDTH = 32
 )(
     input [SUM_WIDTH-1:0] in_data,
@@ -17,3 +17,4 @@
     end
 
 endmodule
+
