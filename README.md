@@ -9,7 +9,7 @@
 - [X] **Lab02 (Systolic_Array)**
 - [X] **Lab03 (Input Register)**
 - [ ] **Lab04 (Max Pooling)**
-- [ ] **Lab05 (ReLU Function)**
+- [X] **Lab05 (ReLU Function)**
 - [ ] **Lab06 (Moudle Integration)**
 - [ ] **Lab07 (Data-Path Design)**
 
